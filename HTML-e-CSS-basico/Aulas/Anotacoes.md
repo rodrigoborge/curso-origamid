@@ -16,7 +16,11 @@
     <li>Tab para completar a TAG </li>
     <li>Command + "enter": pular a linha</li>
     <li>Command + "D": Selecionar várias palavras iguais</li>
+    <h1>CSS</h1>
+    <li>Para alterar cores em RGB usa-se função e para função precisa abrir e fechar parenteses e separa com virgula os valores, exemplo: (255, 255, 255)</li>
+    <li>Para RGBA o quarto valor é o alpha, o valor vai de 0 a 1, exemplo: (255, 255, 255 ,0.5)
     
+
 
   </body>
 </html>
