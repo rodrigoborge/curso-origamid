@@ -1,23 +1,28 @@
+/* Fonte alterada em todo documento */
 html{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Cor dos filmes marcados com "Hoje" */
 .hoje{
     color:darkred;
 }
-
+/* Cor dos filmes marcados com "Amanhã" */
 .amanha{
     color:darkblue;
 }
 
+/* Retirada dos sublinhados */
 a {
     text-decoration: none;
 }
 
+/* Cor dos títulos H2 */
 h2{
     color:seagreen;
 }
 
+/* Cor dos parágrafos */
 p{
     font-size:20px;
 }
