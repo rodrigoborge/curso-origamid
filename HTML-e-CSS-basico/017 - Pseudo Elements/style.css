@@ -23,7 +23,7 @@ li::before{
     display: inline-block;
     width: 10px;
     height: 10px;
-    background-image: linear-gradient(blue, red);
+    background-image: radial-gradient(#caf, #fff);
     border: 2px solid #red;
     border-radius: 50%;
     margin-right: 10px;
