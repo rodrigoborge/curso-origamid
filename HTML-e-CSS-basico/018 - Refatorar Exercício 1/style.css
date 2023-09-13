@@ -50,11 +50,11 @@ li:hover {
 .principal {
   display: grid;
   justify-content: end;
+  text-align: right;
+  background: #fff;
   gap: 20px;
   padding: 2.5rem;
   width: 500px;
-  background: #fff;
-  text-align: right;
 }
 
 .bicicleta{
