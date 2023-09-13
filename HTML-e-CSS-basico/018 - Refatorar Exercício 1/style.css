@@ -1,29 +1,85 @@
+body {
+    display: grid;
+    margin: 0px;
+    gap: 60px;
+    margin-top: 60px;
+    justify-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f7f7f7;
+  }
+
 .logo {
+  display: flex;
+  justify-content: center;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  display: inline-block;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000;
+  margin: 15px;
+  padding: 15px;
+  background: #fff;
+  border-color: #f7f7f7;
+  border-width: 2px;
+  border-radius: 5px;
+  border-style: solid;
+  transition: 0.2s;
+}
+
+li:hover {
+  border-color: #ee2211;
+  border-width: 2px;
+  border-style: solid;
+  cursor: pointer;
+}
+
+.secao1 {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-body {
-  background-color: #f7f7f7;
-}
-
-a {
-  display: inline-block;
-  font-family: Arial, Helvetica, sans-serif;
-  text-transform: uppercase;
-  text-decoration: none;
-  color: #000;
-  margin: 20px;
-  padding: 15px;
+.principal {
+  display: grid;
+  justify-content: end;
+  gap: 20px;
+  padding: 2.5rem;
+  width: 500px;
   background: #fff;
-  border-radius: 5px;
+  text-align: right;
 }
 
-a:hover {
-  margin: 10px solid red;
+#texto1 {
+  font-size: 1.5rem;
+}
+
+.botao {
+  display: flex;
+  justify-content: center;
+  width: 100px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  text-decoration: none;
+  background: #ee2211;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.botao:hover {
+  background: #900;
+  transition: 0.3s;
+  cursor: pointer;
 }
 
 .bicicleta {
-  width: 200px;
+  display: inline-block;
+  width: 500px;
 }

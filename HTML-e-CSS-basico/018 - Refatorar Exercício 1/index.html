@@ -3,26 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="/HTML-e-CSS-basico/018 - Refatorar Exercício 1/style.css">
     <title>Refatorar Exercício 1</title>
 </head>
 <body>
+    <header>
+        <div class="logo">
+            <img src="./images/bikcraft.svg" alt="Logo Bikraft">
+        </div>
+    </header>
     <nav>
-        <img class="logo" src="./images/bikcraft.svg" alt="Logo Bikraft">
-        <a href="">sobre</a>
-        <a href="">produtos</a>
-        <a href="">lojas</a>
-        <a href="">contato</a>
+        <div class="menu">
+            <ul>
+                <li>sobre</li>
+                <li>produtos</li>
+                <li>lojas</li>
+                <li>contato</li>
+            </ul>
+        </div>
     </nav>
 
     <main>
-        <div>
+        <div class="secao1">
+        <div class="principal">
             <h1>Bicicletas Feitas a Mão</h1>
-            <p>A Nimbus Stark é a melhor Bikraft já criada pela nossa equipe. Ela vem equipada com os melhores acessórios da Marca</p>
-            <a href="">ver mais</a>
+            <p id="texto1">A Nimbus Stark é a melhor Bikraft já criada pela nossa equipe. Ela vem equipada com os melhores acessórios da Marca</p>
+            <button class="botao">ver mais</button>
         </div>
-        <div>
-            <img class="bicicleta" src="./images/bicicleta.jpg" alt="Foto Bicicleta">
+        <img class="bicicleta" src="./images/bicicleta.jpg" alt="Foto Bicicleta">
         </div>
         <div>
             <h2>vantagens bikraft</h2>
