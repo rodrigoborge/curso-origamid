@@ -44,6 +44,7 @@ li:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 
 .principal {
@@ -54,6 +55,11 @@ li:hover {
   width: 500px;
   background: #fff;
   text-align: right;
+}
+
+.bicicleta{
+  display: block;
+  max-width: 100%;
 }
 
 #texto1 {
@@ -82,4 +88,40 @@ li:hover {
 .bicicleta {
   display: inline-block;
   width: 500px;
+}
+
+.secao2{
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  
+}
+
+.vantagens{
+  display: block;
+  font-size: 3rem;
+  text-align: end;
+  text-transform: uppercase;
+  color: #c5c5c5;
+  background-image: url("./images/onda.svg");
+  background-position: center;
+  width: 500px;
+  padding: 2.5rem;
+}
+
+.descricao{
+  display: block;
+  padding: 2.5rem;
+  background: #fff;
+  width: 500px;
+}
+
+footer{
+  display: inline-block;
+  width: 100%;
+  background: #fff;
+  text-align: center;
+  padding: 30px;
+  font-size: 1.1rem;
+  box-sizing: border-box;
 }
