@@ -1,12 +1,12 @@
 body {
-    display: grid;
-    margin: 0px;
-    gap: 60px;
-    margin-top: 60px;
-    justify-items: center;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #f7f7f7;
-  }
+  display: grid;
+  margin: 0px;
+  gap: 60px;
+  margin-top: 60px;
+  justify-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f7f7f7;
+}
 
 .logo {
   display: flex;
@@ -44,20 +44,21 @@ li:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 .principal {
   display: grid;
   justify-content: end;
   text-align: right;
+  align-content: end;
+  justify-items: right;
   background: #fff;
   gap: 20px;
   padding: 2.5rem;
   width: 500px;
 }
 
-.bicicleta{
+.bicicleta {
   display: block;
   max-width: 100%;
 }
@@ -67,16 +68,15 @@ li:hover {
 }
 
 .botao {
-  display: flex;
-  justify-content: center;
-  width: 100px;
-  padding: 10px;
-  border-radius: 5px;
-  border: none;
-  text-decoration: none;
+  display: block;
   background: #ee2211;
+  border: none;
+  font-size: 1.3rem;
   color: #fff;
-  text-transform: uppercase;
+  padding: 20px;
+  border-radius: 10px;
+  width: 180px;
+  align-items: end;
 }
 
 .botao:hover {
@@ -90,14 +90,13 @@ li:hover {
   width: 500px;
 }
 
-.secao2{
+.secao2 {
   display: flex;
   justify-content: center;
   justify-items: center;
-  
 }
 
-.vantagens{
+.descricao {
   display: block;
   font-size: 3rem;
   text-align: end;
@@ -109,14 +108,28 @@ li:hover {
   padding: 2.5rem;
 }
 
-.descricao{
+.vantagens-all{
+  padding: 450px;
+  background: #fff;
+}
+
+.vantagens {
   display: block;
   padding: 2.5rem;
   background: #fff;
   width: 500px;
+  border: #f7f7f7 solid 5px;
 }
 
-footer{
+.vantagens:hover {
+  border-left: #ee2211 5px solid;
+}
+
+.vantagens:nth-child(odd) {
+  background: #f7f7f7;
+}
+
+footer {
   display: inline-block;
   width: 100%;
   background: #fff;
