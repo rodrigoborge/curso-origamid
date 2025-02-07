@@ -20,3 +20,4 @@ var semDefinir;
 console.log(semDefinir);
 
 // -> É possível mudar o valor atribuido nas variáveis VAR e LET, no CONST não é possivel modificar
+
