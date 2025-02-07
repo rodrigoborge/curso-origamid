@@ -21,3 +21,10 @@ console.log(semDefinir);
 
 // -> É possível mudar o valor atribuido nas variáveis VAR e LET, no CONST não é possivel modificar
 
+var meuNome = 'Rodrigo';
+var minhaIdade = 35;
+var comidaFavorita;
+comidaFavorita = 'Hamburger';
+var nome, cidade, estado, bairro, rua, cep;
+
+console.log(meuNome, minhaIdade, comidaFavorita);
