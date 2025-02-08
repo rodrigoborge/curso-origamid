@@ -35,12 +35,11 @@ console.log(+caractere + numero);
 
 // Incremente o número 5 e retorne o seu valor incrementado
 var numero5 = 5;
-console.log(numero5++)
-console.log(numero5++);
+numero5++;
+console.log(numero5);
 
 // Como dividir o peso por 2?
-var numero = '80';
+var numero = +'80' / 2;
 var unidade = 'kg';
-var peso = numero + unidade; // '80kg'
-var pesoPorDois = numero / 2; // NaN (Not a Number)
-console.log(pesoPorDois)
+var peso = numero + ' ' + unidade; // '80kg'
+console.log(peso)
