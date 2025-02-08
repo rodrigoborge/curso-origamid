@@ -9,9 +9,8 @@ if (possuiGraduacao) {
     console.log('Não possui nada');
 }
 
-
 // Valor Lógico E - &&
-var condicional = (5 - 5) && (5 + 5);
+var condicional = 5 - 5 && 5 + 5;
 
 if (condicional) {
     console.log('Verdadeiro');
@@ -19,10 +18,15 @@ if (condicional) {
     console.log('Falso');
 }
 
-if ((5 - 10) && (5 + 5)) {
+if (5 - 10 && 5 + 5) {
     console.log('Verdadeiro');
 } else {
     console.log('Falso');
 }
 
 // Valor Lógico OU - ||
+
+var condicional2 = (5 - 5) || (5 + 5) || (10 - 2);
+console.log(condicional2);
+
+// Switch
