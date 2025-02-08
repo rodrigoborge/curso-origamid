@@ -26,7 +26,25 @@ if (5 - 10 && 5 + 5) {
 
 // Valor Lógico OU - ||
 
-var condicional2 = (5 - 5) || (5 + 5) || (10 - 2);
+var condicional2 = 5 - 5 || 5 + 5 || 10 - 2;
 console.log(condicional2);
 
-// Switch
+// Switch Case
+
+var corFavorita = 'Azul';
+
+switch (corFavorita) {
+    case 'Azul':
+        console.log('Olhe para o céu');
+        break;
+    case 'Amarelo':
+        console.log('Olhe para o sol');
+        break;
+    case 'Verde':
+        console.log('Olhe para o floresta');
+        break;
+    default:
+        console.log('Feche os olhos');
+}
+
+// Exercicio
