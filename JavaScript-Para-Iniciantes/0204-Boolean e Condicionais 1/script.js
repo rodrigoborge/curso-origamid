@@ -52,7 +52,7 @@ switch (corFavorita) {
 // Dependendo do resultado coloque no console 'É maior', 'É igual' ou 'É menor'
 
 // Qual valor é retornado na seguinte expressão?
-var expressao = (5 - 2) && (5 - ' ') && (5 - 2);
+var expressao = 5 - 2 && 5 - ' ' && 5 - 2;
 
 // Verifique se as seguintes variáveis são Truthy ou Falsy
 var nome = 'Andre';
@@ -66,15 +66,15 @@ var brasil = 207;
 var china = 1340;
 
 // O que irá aparecer no console?
-if(('Gato' === 'gato') && (5 > 2)) {
-  console.log('Verdadeiro');
+if ('Gato' === 'gato' && 5 > 2) {
+    console.log('Verdadeiro');
 } else {
-  console.log('Falso');
+    console.log('Falso');
 }
 
 // O que irá aparecer no console?
-if(('Gato' === 'gato') || (5 > 2)) {
-  console.log('Gato' && 'Cão');
+if ('Gato' === 'gato' || 5 > 2) {
+    console.log('Gato' && 'Cão');
 } else {
-  console.log('Falso');
+    console.log('Falso');
 }
