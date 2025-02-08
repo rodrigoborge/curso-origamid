@@ -21,6 +21,7 @@ console.log(x);
 // Qual o resultado da seguinte expressão?
 var total = 10 + (5 * 2) / 2 + 20;
 console.log(total);
+
 // Crie duas expressões que retornem NaN
 var idade = '35 anos';
 console.log(idade / 20);
