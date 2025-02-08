@@ -16,6 +16,8 @@ console.log(x++);
 console.log(x);
 
 // Exercicios
+
+
 // Qual o resultado da seguinte expressão?
 var total = 10 + (5 * 2) / 2 + 20;
 console.log(total);
