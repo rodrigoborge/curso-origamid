@@ -49,12 +49,20 @@ var carro = {
     marca: 'Audi',
 };
 carro.preco = 3000;
-console.log(carro.preco);
+console.log(carro);
 
 // Crie um objeto de um cachorro que represente um labrador,
 // preto com 10 anos, que late ao ver um homem
 var cachorro = {
+    raca: 'labrador',
     cor: 'preto',
-    idade: '10 anos',
+    idade: 10,
+    latir(pessoa) {
+        if (pessoa === 'homem') {
+            return 'Latir';
+        } else {
+            return 'Abanar o rabo';
+        }
+    },
 };
-console.log(cachorro);
+console.log(cachorro.latir('mulher'));
