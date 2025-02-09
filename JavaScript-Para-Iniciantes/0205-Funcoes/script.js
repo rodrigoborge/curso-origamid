@@ -30,12 +30,10 @@ function corFavorita(cor) {
 }
 console.log(corFavorita('verde'));
 
-
 // Argumentos podem ser funções
 // addEventListener('click', function () {
 //     console.log('OI');
 // });
-
 
 // Pode retornar qualquer tipo de dado
 function terceiraIdade(idade) {
@@ -53,5 +51,9 @@ function terceiraIdade(idade) {
 }
 console.log(terceiraIdade(60));
 
-
 // Escopo
+function faltamVisitar(paisesVisitados) {
+    var totalPaises = 193;
+    return `Faltam visitar ${totalPaises - [paisesVisitados]} países`;
+}
+console.log(faltamVisitar(34));
