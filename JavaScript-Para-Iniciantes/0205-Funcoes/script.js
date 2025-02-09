@@ -18,7 +18,6 @@ function imc(peso, altura) {
 console.log(imc(80, 1.8));
 console.log(imc(124, 1.83));
 
-
 // Parenteses executa a função
 function corFavorita(cor) {
     if (cor === 'azul') {
@@ -29,4 +28,9 @@ function corFavorita(cor) {
         return 'Eu nao gosto de cores';
     }
 }
-console.log(corFavorita('verde'))
+console.log(corFavorita('verde'));
+
+// Argumentos podem ser funções
+addEventListener('click', function () {
+    console.log('OI');
+});
