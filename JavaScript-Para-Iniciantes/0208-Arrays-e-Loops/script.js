@@ -12,3 +12,10 @@ console.log(videoGames);
 for (var numero = 0; numero <= 10; numero++) {
     console.log(numero);
 }
+
+// LOOPS WHILE
+var i = 0;
+while (i <= 10) {
+    console.log('Eu sou o while: ' + i);
+    i++;
+}
