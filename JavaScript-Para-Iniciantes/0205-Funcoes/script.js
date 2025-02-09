@@ -62,11 +62,7 @@ console.log(faltamVisitar(34));
 
 // Crie uma função para verificar se um valor é Truthy
 function valorVerdadeiro(valor) {
-    if (valor > 0) {
-        return true;
-    } else {
-        return false;
-    }
+    return !!valor
 }
 console.log(valorVerdadeiro(0));
 
