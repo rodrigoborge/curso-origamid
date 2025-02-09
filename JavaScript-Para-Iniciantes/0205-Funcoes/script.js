@@ -61,9 +61,21 @@ console.log(faltamVisitar(34));
 //EXERCICIOS
 
 // Crie uma função para verificar se um valor é Truthy
+function valorVerdadeiro(valor) {
+    if (valor > 0) {
+        return true;
+    } else {
+        return false;
+    }
+}
+console.log(valorVerdadeiro(0));
 
 // Crie uma função matemática que retorne o perímetro de um quadrado
 // lembrando: perímetro é a soma dos quatro lados do quadrado
+function perimetroQuadrado(lado) {
+    return lado * 4;
+}
+console.log(perimetroQuadrado(3));
 
 // Crie uma função que retorne o seu nome completo
 // ela deve possuir os parâmetros: nome e sobrenome
@@ -79,12 +91,12 @@ console.log(faltamVisitar(34));
 // quando o evento 'scroll' ocorrer.
 
 // Corrija o erro abaixo
-function precisoVisitar(paisesVisitados) {
-    var totalPaises = 193;
-    return `Ainda faltam ${totalPaises - paisesVisitados} países para visitar`;
-}
-function jaVisitei(paisesVisitados) {
-    return `Já visitei ${paisesVisitados} do total de ${totalPaises} países`;
-}
-precisoVisitar(20);
-jaVisitei(20);
+// function precisoVisitar(paisesVisitados) {
+//     var totalPaises = 193;
+//     return `Ainda faltam ${totalPaises - paisesVisitados} países para visitar`;
+// }
+// function jaVisitei(paisesVisitados) {
+//     return `Já visitei ${paisesVisitados} do total de ${totalPaises} países`;
+// }
+// precisoVisitar(20);
+// jaVisitei(20);
