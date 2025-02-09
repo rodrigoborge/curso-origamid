@@ -8,3 +8,7 @@ console.log(videoGames);
 videoGames.push('3DS'); // -> .push adiciona um item no final do array
 console.log(videoGames);
 
+// LOOPS e FOR
+for (var numero = 0; numero <= 10; numero++) {
+    console.log(numero);
+}
