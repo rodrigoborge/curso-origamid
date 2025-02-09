@@ -48,18 +48,29 @@ switch (corFavorita) {
 }
 
 // Exercicio
+
 // Verifique se a sua idade é maior do que a de algum parente
 // Dependendo do resultado coloque no console 'É maior', 'É igual' ou 'É menor'
+var minhaIdade = 35;
+var idadeParente = 50;
+
+if (minhaIdade > idadeParente) {
+    console.log('É maior');
+} else {
+    console.log('É menor');
+}
+
 
 // Qual valor é retornado na seguinte expressão?
-var expressao = 5 - 2 && 5 - ' ' && 5 - 2;
+var expressao = 5 - 2 && 5 - ' ' && 5 - 2; // 3
+console.log(expressao)
 
 // Verifique se as seguintes variáveis são Truthy ou Falsy
-var nome = 'Andre';
-var idade = 28;
-var possuiDoutorado = false;
-var empregoFuturo;
-var dinheiroNaConta = 0;
+var nome = 'Andre'; // True
+var idade = 28; // True
+var possuiDoutorado = false; // False
+var empregoFuturo; // False
+var dinheiroNaConta = 0; // False
 
 // Compare o total de habitantes do Brasil com China (valor em milhões)
 var brasil = 207;
@@ -71,6 +82,7 @@ if ('Gato' === 'gato' && 5 > 2) {
 } else {
     console.log('Falso');
 }
+ // Falso
 
 // O que irá aparecer no console?
 if ('Gato' === 'gato' || 5 > 2) {
@@ -78,3 +90,4 @@ if ('Gato' === 'gato' || 5 > 2) {
 } else {
     console.log('Falso');
 }
+ // Cão
