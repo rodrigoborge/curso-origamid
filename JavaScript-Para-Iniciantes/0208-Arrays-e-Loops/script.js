@@ -10,7 +10,7 @@ console.log(videoGames);
 
 // LOOPS e FOR
 for (var numero = 0; numero <= 10; numero++) {
-    console.log(numero);
+    console.log('Eu sou o for: ' + numero);
 }
 
 // LOOPS WHILE
