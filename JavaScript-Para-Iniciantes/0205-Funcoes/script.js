@@ -62,7 +62,7 @@ console.log(faltamVisitar(34));
 
 // Crie uma função para verificar se um valor é Truthy
 function valorVerdadeiro(valor) {
-    return !!valor
+    return !!valor;
 }
 console.log(valorVerdadeiro(0));
 
@@ -76,9 +76,9 @@ console.log(perimetroQuadrado(3));
 // Crie uma função que retorne o seu nome completo
 // ela deve possuir os parâmetros: nome e sobrenome
 function nomeCompleto(nome, sobrenome) {
-    var nome = 'Rodrigo ';
+    var nome = 'Rodrigo';
     var sobrenome = 'Borge';
-    return nome + sobrenome;
+    return nome + ' ' + sobrenome;
 }
 console.log(nomeCompleto());
 
@@ -95,6 +95,10 @@ console.log(numeroPar(543));
 
 // Crie uma função que retorne o tipo de
 // dado do argumento passado nela (typeof)
+function tipoDeDado(dado) {
+    return typeof dado;
+}
+console.log(tipoDeDado(123));
 
 // addEventListener é uma função nativa do JavaScript
 // o primeiro parâmetro é o evento que ocorre e o segundo o Callback
