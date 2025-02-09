@@ -60,10 +60,9 @@ if (minhaIdade > idadeParente) {
     console.log('É menor');
 }
 
-
 // Qual valor é retornado na seguinte expressão?
 var expressao = 5 - 2 && 5 - ' ' && 5 - 2; // 3
-console.log(expressao)
+console.log(expressao);
 
 // Verifique se as seguintes variáveis são Truthy ou Falsy
 var nome = 'Andre'; // True
@@ -76,13 +75,19 @@ var dinheiroNaConta = 0; // False
 var brasil = 207;
 var china = 1340;
 
+if (brasil > china) {
+    console.log('Sim, 0 Brasil é maior que a China');
+} else {
+    console.log('Não, o Brasil é menor que a China');
+}
+
 // O que irá aparecer no console?
 if ('Gato' === 'gato' && 5 > 2) {
     console.log('Verdadeiro');
 } else {
     console.log('Falso');
 }
- // Falso
+// Falso
 
 // O que irá aparecer no console?
 if ('Gato' === 'gato' || 5 > 2) {
@@ -90,4 +95,4 @@ if ('Gato' === 'gato' || 5 > 2) {
 } else {
     console.log('Falso');
 }
- // Cão
+// Cão
