@@ -27,6 +27,7 @@ console.log(quadrado.perimetro(5));
 // Exercicios
 
 // Crie um objeto com os seus dados pessoais
+// Deve possui pelo menos duas propriedades nome e sobrenome
 var meusDados = {
     nome: 'Rodrigo',
     sobrenome: 'Borge',
@@ -35,8 +36,6 @@ var meusDados = {
     uf: 'PR',
 };
 console.log(meusDados);
-
-// Deve possui pelo menos duas propriedades nome e sobrenome
 
 // Crie um método no objeto anterior, que mostre o seu nome completo
 
