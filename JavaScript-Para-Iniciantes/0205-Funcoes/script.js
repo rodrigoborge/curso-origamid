@@ -31,6 +31,23 @@ function corFavorita(cor) {
 console.log(corFavorita('verde'));
 
 // Argumentos podem ser funções
-addEventListener('click', function () {
-    console.log('OI');
-});
+// addEventListener('click', function () {
+//     console.log('OI');
+// });
+
+// Pode retornar qualquer tipo de dado
+function terceiraIdade(idade) {
+    console.log(typeof idade);
+    if (typeof idade !== 'number') {
+        return 'Por favor, preencha um numero';
+    }
+
+    if (idade >= 60) {
+        console.log('É idoso');
+        return true;
+    } else {
+        return false;
+    }
+}
+
+console.log(terceiraIdade(60));
