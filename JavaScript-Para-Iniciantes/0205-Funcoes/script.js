@@ -30,10 +30,12 @@ function corFavorita(cor) {
 }
 console.log(corFavorita('verde'));
 
+
 // Argumentos podem ser funções
 // addEventListener('click', function () {
 //     console.log('OI');
 // });
+
 
 // Pode retornar qualquer tipo de dado
 function terceiraIdade(idade) {
@@ -49,5 +51,7 @@ function terceiraIdade(idade) {
         return false;
     }
 }
-
 console.log(terceiraIdade(60));
+
+
+// Escopo
