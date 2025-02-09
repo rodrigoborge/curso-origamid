@@ -79,7 +79,12 @@ console.log(perimetroQuadrado(3));
 
 // Crie uma função que retorne o seu nome completo
 // ela deve possuir os parâmetros: nome e sobrenome
-
+function nomeCompleto(nome, sobrenome) {
+    var nome = 'Rodrigo ';
+    var sobrenome = 'Borge';
+    return nome + sobrenome;
+}
+console.log(nomeCompleto());
 // Crie uma função que verifica se um número é par
 
 // Crie uma função que retorne o tipo de
