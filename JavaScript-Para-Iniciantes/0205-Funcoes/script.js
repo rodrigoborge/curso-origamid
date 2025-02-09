@@ -85,7 +85,17 @@ function nomeCompleto(nome, sobrenome) {
     return nome + sobrenome;
 }
 console.log(nomeCompleto());
+
 // Crie uma função que verifica se um número é par
+function numeroPar(numero) {
+    var par = numero % 2;
+    if (par === 0) {
+        return 'É par';
+    } else {
+        return 'É impar';
+    }
+}
+console.log(numeroPar(543));
 
 // Crie uma função que retorne o tipo de
 // dado do argumento passado nela (typeof)
