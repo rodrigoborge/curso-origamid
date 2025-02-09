@@ -38,7 +38,7 @@ console.log(meusDados);
 
 // Crie um método no objeto anterior, que mostre o seu nome completo
 (meusDados.nomeCompleto = function (compName) {
-    return this.nome + ' ' + this.sobrenome;
+    return `${this.nome} ${this.sobrenome}`;
 }),
     console.log(meusDados.nomeCompleto());
 
