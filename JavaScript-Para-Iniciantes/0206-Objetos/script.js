@@ -28,16 +28,18 @@ console.log(quadrado.perimetro(5));
 
 // Crie um objeto com os seus dados pessoais
 // Deve possui pelo menos duas propriedades nome e sobrenome
+// Crie um método no objeto anterior, que mostre o seu nome completo
 var meusDados = {
     nome: 'Rodrigo',
     sobrenome: 'Borge',
     idade: 35,
     cidade: 'Curitiba',
-    uf: 'PR',
+    nomeCompleto: function (compName) {
+        return this.nome + ' ' + this.sobrenome;
+    },
 };
 console.log(meusDados);
-
-// Crie um método no objeto anterior, que mostre o seu nome completo
+console.log(meusDados.nomeCompleto());
 
 // Modifique o valor da propriedade preco para 3000
 var carro = {
@@ -50,3 +52,8 @@ console.log(carro.preco);
 
 // Crie um objeto de um cachorro que represente um labrador,
 // preto com 10 anos, que late ao ver um homem
+var cachorro = {
+    cor: 'preto',
+    idade: '10 anos',
+};
+console.log(cachorro);
