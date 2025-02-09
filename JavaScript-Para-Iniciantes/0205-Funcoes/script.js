@@ -104,6 +104,9 @@ console.log(tipoDeDado(123));
 // o primeiro parâmetro é o evento que ocorre e o segundo o Callback
 // utilize essa função para mostrar no console o seu nome completo
 // quando o evento 'scroll' ocorrer.
+addEventListener('scroll', function () {
+    console.log('Rodrigo Borge');
+});
 
 // Corrija o erro abaixo
 function precisoVisitar(paisesVisitados) {
