@@ -25,7 +25,17 @@ console.log(quadrado.perimetro(5));
 // Faz sempre referência a um objeto
 
 // Exercicios
+
 // Crie um objeto com os seus dados pessoais
+var meusDados = {
+    nome: 'Rodrigo',
+    sobrenome: 'Borge',
+    idade: 35,
+    cidade: 'Curitiba',
+    uf: 'PR',
+};
+console.log(meusDados);
+
 // Deve possui pelo menos duas propriedades nome e sobrenome
 
 // Crie um método no objeto anterior, que mostre o seu nome completo
