@@ -3,12 +3,12 @@
 // Podem funcionar como formas abreviadas
 
 //Exemplos
-var x = 5;
-var y = 10;
+var numero1 = 5;
+var numero2 = 10;
 
-x += y; // -> x = x + y = 15
-x -= y; // -> x = x - y = -5
-x *= y; // -> x = x * y = 50
-x /= y; // -> x = x / y = 0.5
-x %= y; // -> x = x % y = 0
-x **= y; // -> x = x ** y = 9765625
+numero1 += numero2; // -> numero1 = numero1 + numero2 = 15
+numero1 -= numero2; // -> numero1 = numero1 - numero2 = -5
+numero1 *= numero2; // -> numero1 = numero1 * numero2 = 50
+numero1 /= numero2; // -> numero1 = numero1 / numero2 = 0.5
+numero1 %= numero2; // -> numero1 = numero1 % numero2 = 0
+numero1 **= numero2; // -> numero1 = numero1 ** numero2 = 9765625
