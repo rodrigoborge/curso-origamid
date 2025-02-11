@@ -23,7 +23,7 @@ console.log(`Este é a URL que você está: ${urlAtual}`);
 
 // Seleciona o primeiro elemento da página que
 // possua a classe ativo
-const selecionaElemento = document.querySelector('.titulo-principal');
+const selecionaElemento = document.querySelector('.ativo');
 console.log(selecionaElemento);
 
 // Retorne a linguagem do navegador
