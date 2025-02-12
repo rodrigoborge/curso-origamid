@@ -30,9 +30,14 @@
 const paragrafos = document.querySelectorAll('p');
 console.log(paragrafos);
 
+paragrafos.forEach((item) => {
+    console.log(item);
+});
+
 // Mostre o texto dos parágrafos no console
-const paragrafosTag = document.getElementsByTagName('p');
-console.log(paragrafosTag.innerText);
+paragrafos.forEach((item) => {
+    console.log(item.innerText);
+});
 
 // Como corrigir os erros abaixo:
 const imgs = document.querySelectorAll('img');
