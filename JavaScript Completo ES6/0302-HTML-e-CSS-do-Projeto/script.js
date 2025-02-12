@@ -49,7 +49,4 @@ console.log(animaisDescricaoH2);
 
 // Selecione o último p do site
 const ultimoP = document.querySelectorAll('p');
-ultimoP.forEach(function () {
-    ultimoP.length-1;
-});
-console.log(ultimoP);
+console.log(ultimoP[ultimoP.length - 1]);
