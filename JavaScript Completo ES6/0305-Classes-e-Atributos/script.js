@@ -20,3 +20,5 @@ const animais = document.querySelector('.animais');
 console.log(animais.attributes['data-texto']);
 
 // GETAttribute e SETAttribute
+const img = document.querySelector('img');
+console.log(img.getAttribute('src'));
