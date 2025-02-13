@@ -26,5 +26,8 @@ console.log(img.getAttribute('src'));
 // Adiciona TAG <alt> no html
 const srcImg = img.setAttribute('alt', 'é uma raposa');
 
+// Verifica se possui ou nao a propriedade
 const possuiAlt = img.hasAttribute('alt');
 console.log(possuiAlt);
+
+// Read Only vs Writable
