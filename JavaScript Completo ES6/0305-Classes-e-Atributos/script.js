@@ -55,9 +55,11 @@ addAtivo.forEach((item) => {
 addAtivo[0].classList.add('ativo');
 // Verifique se as imagens possuem o atributo alt
 const imgs = document.querySelectorAll('img');
-imgs.forEach((img) =>{
+imgs.forEach((img) => {
     const possuiAtributo = img.hasAttribute('alt');
     console.log(possuiAtributo);
-})
+});
 
 // Modifique o href do link externo no menu
+const links = document.querySelector('a[href^="#"]');
+links.setAttribute('href', 'https//:google.com');
