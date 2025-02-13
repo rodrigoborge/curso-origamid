@@ -30,4 +30,8 @@ const srcImg = img.setAttribute('alt', 'é uma raposa');
 const possuiAlt = img.hasAttribute('alt');
 console.log(possuiAlt);
 
-// Read Only vs Writable
+// Read Only
+// Não permitem a mudança de seus valores, apenas leitura
+// Para saber se é ou não read only é apenas buscando a documentação
+
+// Writable
