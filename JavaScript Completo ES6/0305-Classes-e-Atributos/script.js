@@ -22,3 +22,6 @@ console.log(animais.attributes['data-texto']);
 // GETAttribute e SETAttribute
 const img = document.querySelector('img');
 console.log(img.getAttribute('src'));
+
+// Adiciona TAG <alt> no html
+const srcImg = img.setAttribute('alt', 'é uma raposa');
