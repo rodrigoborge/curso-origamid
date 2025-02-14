@@ -13,3 +13,10 @@ const rect = primeiroh2.getBoundingClientRect();
 console.log(rect);
 
 console.log(window.innerWidth, window.innerHeight, window.outerWidth, window.outerHeight, window.scrollY, window.scrollX);
+
+const small = window.matchMedia('max-width: 600px').matches;
+if (small) {
+    console.log('Usuário Mobile');
+} else {
+    console.log('Usuário Desk');
+}
