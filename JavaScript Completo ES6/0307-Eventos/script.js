@@ -34,3 +34,5 @@ h1.addEventListener('mouseenter', handleEvent);
 h1.addEventListener('mousemove', handleEvent);
 h1.addEventListener('mousemove', handleEvent);
 window.addEventListener('scroll', handleEvent);
+window.addEventListener('resize', handleEvent);
+window.addEventListener('keydown', handleEvent);
