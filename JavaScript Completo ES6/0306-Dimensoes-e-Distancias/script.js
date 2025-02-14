@@ -20,3 +20,26 @@ if (small) {
 } else {
     console.log('Usuário Desk');
 }
+
+// EXERCICIOS
+
+// Verifique a distância da primeira imagem
+// em relação ao topo da página
+const primeiraImagem = document.querySelector('img');
+const imagemTop = primeiraImagem.offsetTop;
+console.log(imagemTop);
+
+// Retorne a soma da largura de todas as imagens
+const todasImagens = document.querySelectorAll('img');
+let somaLargura = 0;
+todasImagens.forEach((imagem) => {
+    somaLargura += imagem.offsetWidth;
+});
+console.log(somaLargura);
+
+// Verifique se os links da página possuem
+// o mínimo recomendado para telas utilizadas
+// com o dedo. (48px/48px de acordo com o google)
+
+// Se o browser for menor que 720px,
+// adicione a classe menu-mobile ao menu
