@@ -14,7 +14,7 @@ console.log(rect);
 
 console.log(window.innerWidth, window.innerHeight, window.outerWidth, window.outerHeight, window.scrollY, window.scrollX);
 
-const small = window.matchMedia('max-width: 600px').matches;
+const small = window.matchMedia('(max-width: 600px)').matches;
 if (small) {
     console.log('Usuário Mobile');
 } else {
@@ -52,8 +52,8 @@ selecionaLinks.forEach((medida) => {
 
 // Se o browser for menor que 720px,
 // adicione a classe menu-mobile ao menu
-const menu = document.querySelector('.menu')
-const browser = window.matchMedia('max-width: 720px').matches;
-if(browser){
-    menu.classList.add('mobile');
+const menu = document.querySelector('.menu');
+const browser = window.matchMedia('(max-width: 720px)').matches;
+if (browser) {
+    menu.classList.add('menu-mobile');
 }
