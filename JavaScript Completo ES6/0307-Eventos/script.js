@@ -29,10 +29,18 @@ function handleEvent(event) {
     console.log(event.type, event);
 }
 
-h1.addEventListener('click', handleEvent);
-h1.addEventListener('mouseenter', handleEvent);
-h1.addEventListener('mousemove', handleEvent);
-h1.addEventListener('mousemove', handleEvent);
-window.addEventListener('scroll', handleEvent);
-window.addEventListener('resize', handleEvent);
-window.addEventListener('keydown', handleEvent);
+// h1.addEventListener('click', handleEvent);
+// h1.addEventListener('mouseenter', handleEvent);
+// h1.addEventListener('mousemove', handleEvent);
+// h1.addEventListener('mousemove', handleEvent);
+// window.addEventListener('scroll', handleEvent);
+// window.addEventListener('resize', handleEvent);
+function handleKeyboard(event) {
+    if (event.key === 'f') {
+        document.body.classList.toggle('fullscreen');
+    } else if (event.key === 'g') {
+        document.body.classList.remove('fullscreen');
+    }
+}
+
+window.addEventListener('keydown', handleKeyboard);
