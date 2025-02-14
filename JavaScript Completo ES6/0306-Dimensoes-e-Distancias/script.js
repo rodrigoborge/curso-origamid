@@ -40,6 +40,15 @@ console.log(somaLargura);
 // Verifique se os links da página possuem
 // o mínimo recomendado para telas utilizadas
 // com o dedo. (48px/48px de acordo com o google)
+const selecionaLinks = document.querySelectorAll('a');
+
+selecionaLinks.forEach((medida) => {
+    if (medida.offsetWidth >= 48 && medida.offsetHeight >= 48) {
+        console.log('Este elemento está de acordo');
+    } else {
+        console.log('Este elemento não está de acordo!!');
+    }
+});
 
 // Se o browser for menor que 720px,
 // adicione a classe menu-mobile ao menu
