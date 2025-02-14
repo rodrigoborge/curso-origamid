@@ -15,4 +15,10 @@ function callbackLista(event) {
 }
 animaisLista.addEventListener('click', callbackLista);
 
-const linkExterno = document.querySelector('a');
+const linkExterno = document.querySelector('a[href^=http]');
+
+function handleLinkExterno(event) {
+    console.log('Clicou!');
+}
+
+linkExterno.addEventListener('click', handleLinkExterno);
