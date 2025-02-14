@@ -11,3 +11,5 @@ console.log(h2left);
 
 const rect = primeiroh2.getBoundingClientRect();
 console.log(rect);
+
+console.log(window.innerWidth, window.innerHeight, window.outerWidth, window.outerHeight, window.scrollY, window.scrollX);
