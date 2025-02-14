@@ -18,7 +18,8 @@ animaisLista.addEventListener('click', callbackLista);
 const linkExterno = document.querySelector('a[href^=http]');
 
 function handleLinkExterno(event) {
-    console.log('Clicou!');
+    event.preventDefault();
+    console.log(event);
 }
 
 linkExterno.addEventListener('click', handleLinkExterno);
