@@ -58,7 +58,7 @@ imgs.forEach((img) => {
 // adicione a classe ativo ao item clicado e remova dos
 // demais itens caso eles possuam a mesma. Previna
 // o comportamento padrão desses links
-const linksInternos = document.querySelectorAll('a[href^=#]');
+const linksInternos = document.querySelectorAll('a[href^="#"');
 
 function handleLink(event) {
     event.preventDefault();
@@ -69,7 +69,7 @@ function handleLink(event) {
 }
 
 linksInternos.forEach((link) => {
-    WakeLockSentinel.addEventListener('click', handleLink);
+    link.addEventListener('click', handleLink);
 });
 
 // Selecione todos os elementos do site começando a partir do body,
