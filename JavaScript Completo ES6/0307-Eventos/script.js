@@ -77,7 +77,7 @@ linksInternos.forEach((link) => {
 const todosElementos = document.querySelectorAll('body *');
 
 function handleElemento(event) {
-    elemento.event.currentTarget;
+    //event.currentTarget.remove();
 }
 
 todosElementos.forEach((elemento) => {
