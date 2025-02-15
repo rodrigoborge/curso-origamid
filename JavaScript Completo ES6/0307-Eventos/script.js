@@ -88,3 +88,10 @@ todosElementos.forEach((elemento) => {
 // remova o elemento que está sendo clicado, o método remove() remove um elemento
 
 // Se o usuário clicar na tecla (t), aumente todo o texto do site.
+function handleClickT(evento) {
+    if (evento.key === 't') {
+        document.documentElement.classList.toggle('textomaior');
+    }
+}
+
+window.addEventListener('keydown', handleClickT);
