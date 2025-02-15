@@ -209,3 +209,11 @@ copy p {
         margin-bottom: 0px;
     }
 }
+
+.js-tabcontent section {
+    display: none;
+}
+
+.js-tabcontent section.ativo {
+    display: block !important;
+}
