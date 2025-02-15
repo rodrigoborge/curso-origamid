@@ -14,3 +14,10 @@ console.log(animaisDescricao.innerText);
 // Transversing
 const lista = document.querySelector('.animais-lista');
 console.log(lista.children);
+
+// Selecionando e Movendo Elemento
+const animais = document.querySelector('.animais');
+const contato = document.querySelector('.contato');
+const titulo = contato.querySelector('.titulo');
+
+animais.appendChild(titulo);
