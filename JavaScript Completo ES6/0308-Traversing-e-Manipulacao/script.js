@@ -21,3 +21,9 @@ const contato = document.querySelector('.contato');
 const titulo = contato.querySelector('.titulo');
 
 animais.appendChild(titulo);
+
+// Criar novo elemento
+const novoH1 = document.createElement('h1');
+novoH1.innerText = 'Novo Título';
+novoH1.classList.add('titulo');
+contato.appendChild(novoH1);
