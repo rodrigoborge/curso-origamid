@@ -45,3 +45,5 @@ const proximoDd = primeiroDt.nextElementSibling;
 console.log(proximoDd);
 
 // Substitua o conteúdo html de .faq pelo de .animais
+const animais2 = document.querySelector('.animais');
+faq.innerHTML = animais2.innerHTML;
