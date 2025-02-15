@@ -19,7 +19,7 @@ const linkExterno = document.querySelector('a[href^=http]');
 
 function handleLinkExterno(event) {
     event.preventDefault();
-    console.log(event);
+    // console.log(event);
 }
 
 linkExterno.addEventListener('click', handleLinkExterno);
@@ -44,3 +44,11 @@ function handleKeyboard(event) {
 }
 
 window.addEventListener('keydown', handleKeyboard);
+
+function handleImg(event) {
+    console.log(event.currentTarget.getAttribute('src'));
+}
+const imgs = document.querySelectorAll('img');
+imgs.forEach((img) => {
+    img.addEventListener('click', handleImg);
+});
