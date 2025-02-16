@@ -1,8 +1,8 @@
-function Carro() {
-    this.marca = 'Marca';
-    this.preco = 2000;
+function Carro(marcaAtribuida, precoAtribuido) {
+    this.marca = marcaAtribuida;
+    this.preco = precoAtribuido;
 }
 
-const honda = new Carro();
-const fiat = new Carro();
-fiat.marca = 'Fiat';
+const honda = new Carro('Honda', 3000);
+const fiat = new Carro('Fiat', 4000);
+
