@@ -234,17 +234,20 @@ copy p {
     }
 }
 
-.js .js-accordion dd{
+.js .js-accordion dd {
     display: none;
-
 }
 
-.js-accordion dt::after{
+.js-accordion dt::after {
     content: '⤵';
     margin-left: 10px;
 }
 
-.js-accordion dt.ativo::after{
+.js-accordion dt.ativo::after {
     content: '⤴';
     margin-left: 10px;
+}
+
+.js-accordion dd.ativo {
+    display: block;
 }
