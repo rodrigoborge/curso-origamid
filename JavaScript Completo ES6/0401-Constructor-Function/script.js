@@ -13,17 +13,15 @@
 // Dom.seletor = 'ul';
 // Dom.ativar();
 
-
-
 // FUNCAO SELETORA
 function Dom(seletor) {
-    this.element = function () {
+    (this.element = function () {
         return document.querySelector(seletor);
-    },
-
-    this.ativar = function () {
-        this.element().classList.add('ativar');
-    }
-};
+    }),
+        (this.ativar = function () {
+            this.element().classList.add('ativar');
+        });
+}
 
 const li = new Dom('li');
+const ul = new Dom('ul');
