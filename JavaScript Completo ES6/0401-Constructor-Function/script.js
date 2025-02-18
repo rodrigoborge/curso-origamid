@@ -3,8 +3,11 @@ const Dom = {
     element() {
         return document.querySelector('this.seletor');
     },
-    
+
     ativar() {
         this.element().classList.add('ativar');
     },
 };
+Dom.ativar();
+Dom.seletor = 'ul';
+Dom.ativar();
