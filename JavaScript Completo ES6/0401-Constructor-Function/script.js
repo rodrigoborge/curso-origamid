@@ -39,6 +39,13 @@ const pessoa = {
 
 // Crie 3 pessoas, João - 20 anos,
 // Maria - 25 anos, Bruno - 15 anos
+function Pessoa(nome, idade) {
+    (this.nome = nome),
+        (this.idade = idade),
+        (this.andar = function () {
+            console.log(this.nome + 'Andou...');
+        });
+}
 
 // Crie uma Constructor Function (Dom) para manipulação
 // de listas de elementos do dom. Deve conter as seguintes
