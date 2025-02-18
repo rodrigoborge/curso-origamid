@@ -26,3 +26,4 @@ function Dom(seletor) {
     }
 };
 
+const li = new Dom('li');
