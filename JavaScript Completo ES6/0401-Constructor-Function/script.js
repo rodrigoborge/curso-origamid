@@ -69,3 +69,6 @@ function Dom(seletor) {
 }
 
 const listaItens = new Dom('li');
+const ativaUl = new Dom('ul');
+listaItens.addClass('Ativa');
+ul.addClass('ativar-ul');
