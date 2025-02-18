@@ -8,6 +8,7 @@ const Dom = {
         this.element().classList.add('ativar');
     },
 };
+
 Dom.ativar();
 Dom.seletor = 'ul';
 Dom.ativar();
