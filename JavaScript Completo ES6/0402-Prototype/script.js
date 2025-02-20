@@ -4,6 +4,9 @@ function Pessoa(nome,idade){
     this.abracar = function(){
         return 'Abracou'
     }
+    this.andar = function (){
+        return 'Andou pelo objeto!'
+    }
 }
 
 Pessoa.prototype.andar = function(){
