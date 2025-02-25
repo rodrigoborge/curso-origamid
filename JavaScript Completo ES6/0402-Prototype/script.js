@@ -70,6 +70,11 @@ NodeList.prototype;
 HTMLCollection.prototype;
 Document.prototype;
 
+//Também é possivel acessar usando o comando
+Object.getOwnPropertyNames(NodeList.prototype);
+Object.getOwnPropertyNames(HTMLAllCollection.prototype);
+Object.getOwnPropertyNames(Document.prototype);
+
 // Liste os construtores dos dados abaixo
 const li = document.querySelector('li');
 
