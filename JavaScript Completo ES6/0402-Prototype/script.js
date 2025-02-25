@@ -78,13 +78,18 @@ Object.getOwnPropertyNames(Document.prototype);
 // Liste os construtores dos dados abaixo
 const li = document.querySelector('li');
 
-// li;
-// li.click;
-// li.innerText;
-// li.value;
-// li.hidden;
-// li.offsetLeft;
-// li.click();
+// Para consultar é usado o comando no navegador:
+li.constructor.name;
+//Com o resultado, neste caso 'HTMLLIElement', é usado o .prototype
+HTMLLIElement.prototype;
+
+li;
+li.click;
+li.innerText;
+li.value;
+li.hidden;
+li.offsetLeft;
+li.click();
 
 // Qual o construtor do dado abaixo:
 // li.hidden.constructor.name;
