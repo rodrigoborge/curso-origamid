@@ -31,3 +31,6 @@ const listaAnimais = ['Cachorro', 'Gato', 'Cavalo'];
 //CONVERTENDO NODELIST EM ARRAY
 const listaArray = Array.prototype.slice.call(lista);
 //Fazendo dessa forma é possivel acessar os prototypes de funções no array
+
+//Outra forma de fazer isso é usando o .from, exemplo:
+const listaArrayFrom = Array.from(lista);
