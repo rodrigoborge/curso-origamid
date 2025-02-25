@@ -29,3 +29,4 @@ const cidade = new String('Rio');
 const listaAnimais = ['Cachorro', 'Gato', 'Cavalo'];
 
 //CONVERTENDO NODELIST EM ARRAY
+const listaArray = Array.prototype.slice.call(lista);
