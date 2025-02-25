@@ -34,3 +34,11 @@ const listaArray = Array.prototype.slice.call(lista);
 
 //Outra forma de fazer isso é usando o .from, exemplo:
 const listaArrayFrom = Array.from(lista);
+
+const carro = {
+    marca: 'Ford',
+    preco: 2000,
+    andar() {
+        return true;
+    },
+};
