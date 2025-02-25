@@ -83,13 +83,13 @@ li.constructor.name;
 //Com o resultado, neste caso 'HTMLLIElement', é usado o .prototype
 HTMLLIElement.prototype;
 
-li;
-li.click;
-li.innerText;
-li.value;
-li.hidden;
-li.offsetLeft;
-li.click();
+li; //HTMLLIElement
+li.click; //Function
+li.innerText; //String
+li.value; //Numero
+li.hidden; //Boleano
+li.offsetLeft; //Numero
+li.click(); //Undefined
 
 // Qual o construtor do dado abaixo:
 // li.hidden.constructor.name;
