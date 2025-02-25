@@ -86,10 +86,10 @@ HTMLLIElement.prototype;
 li; //HTMLLIElement
 li.click; //Function
 li.innerText; //String
-li.value; //Numero
-li.hidden; //Boleano
-li.offsetLeft; //Numero
+li.value; //Number
+li.hidden; //Boolean
+li.offsetLeft; //Number
 li.click(); //Undefined
 
 // Qual o construtor do dado abaixo:
-li.hidden.constructor.name;
+li.hidden.constructor.name; //String
