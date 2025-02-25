@@ -21,6 +21,7 @@ const andre = new Pessoa('André', 28);
 
 console.log(Pessoa.prototype);
 
-
 //CONSTRUTORES NATIVOS
 
+const pais = 'Brasil';
+const cidade = new String('Rio');
