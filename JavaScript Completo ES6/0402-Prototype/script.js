@@ -25,3 +25,7 @@ console.log(Pessoa.prototype);
 
 const pais = 'Brasil';
 const cidade = new String('Rio');
+
+const listaAnimais = ['Cachorro', 'Gato', 'Cavalo'];
+
+//CONVERTENDO NODELIST EM ARRAY
