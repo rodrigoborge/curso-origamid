@@ -49,7 +49,19 @@ const carro = {
 // Crie um método no protótipo que retorne
 // o nome completo da pessoa
 
-// Liste os métodos acessados por 
+function Pessoa(nome, pessoa, idade) {
+    this.nome = nome;
+    this.sobrenome = sobrenome;
+    this.idade = idade;
+}
+
+Pessoa.prototype.nomeCompleto = function () {
+    return `${this.nome} ${this.sobrenome}`;
+};
+
+const rodrigo = new Pessoa('Rodrigo', 'Borge', 35);
+
+// Liste os métodos acessados por
 // dados criados com NodeList,
 // HTMLCollection, Document
 
