@@ -65,6 +65,11 @@ const rodrigo = new Pessoa('Rodrigo', 'Borge', 35);
 // dados criados com NodeList,
 // HTMLCollection, Document
 
+//Dentro do navegador:
+NodeList.prototype;
+HTMLCollection.prototype;
+Document.prototype;
+
 // Liste os construtores dos dados abaixo
 const li = document.querySelector('li');
 
