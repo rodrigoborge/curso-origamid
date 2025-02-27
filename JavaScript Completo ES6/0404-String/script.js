@@ -8,3 +8,8 @@ console.log(listaItens);
 let preco = 'R$ 1200,43';
 preco = preco.replace(',', '.');
 console.log(preco);
+
+//Split
+//Divide a string de acordo com o padrão passado e retorna uma array
+const arrayLista = listaItens.split(', ');
+console.log(arrayLista);
