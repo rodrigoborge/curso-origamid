@@ -3,3 +3,5 @@
 
 let listaItens = 'Camisas Bonés Calças Bermudas Vestidos Saias';
 listaItens = listaItens.replace(/[ ]+/g, ', ');
+console.log(listaItens);
+
