@@ -5,3 +5,6 @@ let listaItens = 'Camisas Bonés Calças Bermudas Vestidos Saias';
 listaItens = listaItens.replace(/[ ]+/g, ', ');
 console.log(listaItens);
 
+let preco = 'R$ 1200,43';
+preco = preco.replace(',', '.');
+console.log(preco);
