@@ -69,7 +69,8 @@ const html = `<ul>
                 <li><span>Contato</span></li>
                 </ul>`;
 
-html = html.split('span');
+html = html.split('span').join('a');
+console.log(html);
 
 // Retorne o último caracter da frase
 const frase = 'Melhor do ano!';
