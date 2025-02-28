@@ -42,8 +42,10 @@ const transacoes = [
     },
 ];
 
+let taxaTotal = 0;
+
 transacoes.forEach((item) => {
-    console.log(item.descricao);
+    console.log(item.descricao.includes('taxa'));
 });
 
 // Retorne uma array com a lista abaixo
