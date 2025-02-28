@@ -59,12 +59,17 @@ console.log(recebimentoTotal);
 // Retorne uma array com a lista abaixo
 const transportes = 'Carro;Avião;Trem;Ônibus;Bicicleta';
 
+const arrayTransportes = transportes.split(';');
+console.log(arrayTransportes);
+
 // Substitua todos os span's por a's
 const html = `<ul>
                 <li><span>Sobre</span></li>
                 <li><span>Produtos</span></li>
                 <li><span>Contato</span></li>
                 </ul>`;
+
+html = html.split('span');
 
 // Retorne o último caracter da frase
 const frase = 'Melhor do ano!';
