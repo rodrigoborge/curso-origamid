@@ -43,14 +43,18 @@ const transacoes = [
 ];
 
 let taxaTotal = 0;
+let recebimentoTotal = 0;
 
 transacoes.forEach((item) => {
     const numeroLimpo = +item.valor.replace('R$', '');
     if (item.descricao.slice(0, 4) === 'Taxa') {
         taxaTotal += numeroLimpo;
+    } else {
+        recebimentoTotal += numeroLimpo;
     }
 });
 console.log(taxaTotal);
+console.log(recebimentoTotal);
 
 // Retorne uma array com a lista abaixo
 const transportes = 'Carro;Avião;Trem;Ônibus;Bicicleta';
