@@ -60,7 +60,7 @@ const html = `<ul>
                 <li><span>Sobre</span></li>
                 <li><span>Produtos</span></li>
                 <li><span>Contato</span></li>
-              </ul>`;
+                </ul>`;
 
 // Retorne o último caracter da frase
 const frase = 'Melhor do ano!';
