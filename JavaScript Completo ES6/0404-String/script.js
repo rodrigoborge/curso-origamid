@@ -42,6 +42,10 @@ const transacoes = [
     },
 ];
 
+transacoes.forEach((item) => {
+    console.log(item.descricao);
+});
+
 // Retorne uma array com a lista abaixo
 const transportes = 'Carro;Avião;Trem;Ônibus;Bicicleta';
 
