@@ -47,10 +47,18 @@ console.log(numeroMaximo);
 // e retornar os números com centavos arredondados
 // depois retorne a soma total
 const listaPrecos = ['R$ 59,99', ' R$ 100,222', 'R$ 230  ', 'r$  200'];
-function limprarPreco(preco) {
-    preco = preco.toUpperCase().replace('R$', '').trim().replace(',', '.');
-    preco = preco.toFixed(2);
-    console.log(preco);
+function limparPreco(preco) {
+    preco = +preco.toUpperCase().replace('R$', '').trim().replace(',', '.');
+    preco = +preco.toFixed(2);
+    return preco;
 }
 
-limprarPreco(listaPrecos[0]);
+let soma = 0;
+
+listaPrecos.forEach((preco) => {
+    soma += limparPreco(preco);
+});
+
+console.log(soma.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' }));
+
+limparPreco(listaPrecos[1]);
