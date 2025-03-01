@@ -48,7 +48,8 @@ console.log(numeroMaximo);
 // depois retorne a soma total
 const listaPrecos = ['R$ 59,99', ' R$ 100,222', 'R$ 230  ', 'r$  200'];
 function limprarPreco(preco) {
-    preco = preco.toUpperCase().replace('R$', '').trim();
+    preco = preco.toUpperCase().replace('R$', '').trim().replace(',', '.');
+    preco = preco.toFixed(2);
     console.log(preco);
 }
 
