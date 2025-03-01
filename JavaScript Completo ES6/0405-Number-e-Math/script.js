@@ -34,9 +34,13 @@ console.log(numeroAleatorio2);
 
 // Retorne um número aleatório
 // entre 1050 e 2000
+let numeroAleatorioExercicio = Math.floor(Math.random() * (2000 - 1050 + 1)) + 1050;
+console.log(numeroAleatorioExercicio);
 
 // Retorne o maior número da lista abaixo
 const numeros = '4, 5, 20, 8, 9';
+
+console.log();
 
 // Crie uma função para limpar os preços
 // e retornar os números com centavos arredondados
