@@ -39,8 +39,9 @@ console.log(numeroAleatorioExercicio);
 
 // Retorne o maior número da lista abaixo
 const numeros = '4, 5, 20, 8, 9';
-
-console.log();
+const arrayNumeros = numeros.split(', ');
+const numeroMaximo = Math.max(...arrayNumeros);
+console.log(numeroMaximo);
 
 // Crie uma função para limpar os preços
 // e retornar os números com centavos arredondados
