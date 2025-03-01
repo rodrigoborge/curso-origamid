@@ -8,3 +8,8 @@ console.log(parseInt(23.45));
 const preco = 2.923323;
 console.log(+preco.toFixed(2));
 
+let valor = 48.49;
+valorR = valor.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
+valorD = valor.toLocaleString('en-US', { style: 'currency', currency: 'USD' });
+console.log(valorD, valorR);
+
