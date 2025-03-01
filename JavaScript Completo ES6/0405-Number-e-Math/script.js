@@ -23,3 +23,9 @@ console.log(Math.max(4, 43, 56, 34, 23, 12, 2, 2, 4, 6));
 
 let numeroAleatorio = Math.floor(Math.random() * 60);
 console.log(numeroAleatorio);
+
+//Para colocar o randam entre um intervalo
+//Math.floor(Math.random() * (max - min + 1)) + min;
+
+let numeroAleatorio2 = Math.floor(Math.random() * (60 - 1 + 1)) + 1;
+console.log(numeroAleatorio2);
