@@ -13,3 +13,4 @@ valorR = valor.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
 valorD = valor.toLocaleString('en-US', { style: 'currency', currency: 'USD' });
 console.log(valorD, valorR);
 
+console.log(Math.PI);
