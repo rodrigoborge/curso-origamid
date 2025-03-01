@@ -18,3 +18,8 @@ console.log(Math.PI);
 console.log(Math.round(4.6));
 console.log(Math.ceil(4.6));
 console.log(Math.floor(4.6));
+
+console.log(Math.max(4, 43, 56, 34, 23, 12, 2, 2, 4, 6));
+
+let numeroAleatorio = Math.floor(Math.random() * 60);
+console.log(numeroAleatorio);
