@@ -30,3 +30,10 @@ const objArray = Array.from(objeto);
 
 console.log(li);
 console.log(arrayLi);
+
+//Lenght
+const frutas = ['Banana', 'Pêra', ['Uva Roxa', 'Uva Verde']];
+
+console.log(frutas.length);
+
+//
