@@ -1,4 +1,3 @@
-const instrumentos = ['Guitarra', 'Baixo', 'Violão'];
 const precos = [49, 99, 69, 89];
 
 const dados = [
@@ -37,3 +36,7 @@ const frutas = ['Banana', 'Pêra', ['Uva Roxa', 'Uva Verde']];
 console.log(frutas.length);
 
 //Métodos Modificadores
+const instrumentos = ['Guitarra', 'Baixo', 'Violão'];
+instrumentos.sort();
+
+console.log(instrumentos);
