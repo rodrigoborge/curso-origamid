@@ -16,3 +16,7 @@ carros[3] = 'Kia';
 carros[20] = 'BYD';
 console.log(carros.length);
 
+const li = document.querySelectorAll('li');
+const arrayLi = Array.from(li);
+console.log(li);
+console.log(arrayLi);
