@@ -36,4 +36,4 @@ const frutas = ['Banana', 'Pêra', ['Uva Roxa', 'Uva Verde']];
 
 console.log(frutas.length);
 
-//
+//Métodos Modificadores
