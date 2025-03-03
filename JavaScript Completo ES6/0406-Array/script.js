@@ -39,4 +39,8 @@ console.log(frutas.length);
 const instrumentos = ['Guitarra', 'Baixo', 'Violão'];
 instrumentos.sort();
 
+const idades = [32, 21, 33, 43, 1, 12, 8];
+idades.sort();
+
 console.log(instrumentos);
+console.log(idades);
