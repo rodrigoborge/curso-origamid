@@ -18,5 +18,15 @@ console.log(carros.length);
 
 const li = document.querySelectorAll('li');
 const arrayLi = Array.from(li);
+
+const objeto = {
+    0: 'Rodrigo',
+    1: 'Flavia',
+    3: 'Teste',
+    length: 3,
+};
+
+const objArray = Array.from(objeto);
+
 console.log(li);
 console.log(arrayLi);
