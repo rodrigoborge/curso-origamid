@@ -64,10 +64,11 @@ console.log(['Item1', 'Item2', 'Item3', 'Item4', 'Item5'].copyWithin(2, 0, 3));
 
 console.log(['Item1', 'Item2', 'Item3', 'Item4', 'Item5'].copyWithin(-1));
 
-[].fill()
-//[].fill(valor, inicio, final) preenche a array com o valor, do inicio até o fim.
+[].fill()[
+    //[].fill(valor, inicio, final) preenche a array com o valor, do inicio até o fim.
 
-['Item1', 'Item2', 'Item3', 'Item4'].fill('Banana');
+    ('Item1', 'Item2', 'Item3', 'Item4')
+].fill('Banana');
 // ['Banana', 'Banana', 'Banana', 'Banana']
 
 ['Item1', 'Item2', 'Item3', 'Item4'].fill('Banana', 2);
