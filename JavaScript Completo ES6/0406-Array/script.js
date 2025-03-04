@@ -112,3 +112,6 @@ htmlString = htmlString.split('h2');
 // ['<', '>Título Principal</', '>']
 htmlString = htmlString.join('h1');
 // <h1>Título Principal</h1>
+
+//[].slice()
+//[].slice(inicio, final) retorna os itens da array começando pelo inicio e indo até o valor de final
