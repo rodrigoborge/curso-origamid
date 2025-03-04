@@ -141,6 +141,7 @@ estudantes.sort();
 // Inverta a ordem dos estudantes
 estudantes.reverse();
 // Verifique se Joana faz parte dos estudantes
+console.log(estudantes.includes('Joana'));
 // Verifique se Juliana faz parte dos estudantes
 
 let html = `<section>
