@@ -99,7 +99,16 @@ linguagens.indexOf('python'); // 4
 linguagens.indexOf('js'); // 2
 linguagens.lastIndexOf('js'); // 5
 
-
 //[].join()
 //[].joiin(separador) junta todos os valores da array e retorna uma string com eles. Se passar o valor como um parâmetro, este será utilizado durante a junção de cada item da array.
 
+const linguagens1 = ['html', 'css', 'js', 'php', 'python'];
+linguagens.join(); // 'html,css,js,php,python'
+linguagens.join(' '); // 'html css js php python'
+linguagens.join('-_-'); // 'html-_-css-_-js-_-php-_-python'
+
+let htmlString = '<h2>Título Principal</h2>';
+htmlString = htmlString.split('h2');
+// ['<', '>Título Principal</', '>']
+htmlString = htmlString.join('h1');
+// <h1>Título Principal</h1>
