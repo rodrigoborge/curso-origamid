@@ -152,6 +152,10 @@ let html = `<section>
             </section>`;
 // Substitua section por ul e div com li,
 // utilizando split e join
+html = html.split('section');
+html = html.join('ul');
+html = html.split('div');
+html = html.join('li');
 
 const carros = ['Ford', 'Fiat', 'VW', 'Honda'];
 // Remova o último carro, mas antes de remover
