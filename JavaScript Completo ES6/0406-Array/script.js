@@ -135,6 +135,12 @@ const estudantes = ['Marcio', 'Brenda', 'Joana', 'Kleber', 'Julia'];
 // Verifique se Joana faz parte dos estudantes
 // Verifique se Juliana faz parte dos estudantes
 
+const primeiroValor = comidas.shift();
+const ultimoValor = comidas.pop();
+
+console.log(primeiroValor);
+console.log(ultimoValor);
+
 let html = `<section>
             <div>Sobre</div>
             <div>Produtos</div>
