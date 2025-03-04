@@ -98,3 +98,8 @@ linguagens.includes('ruby'); // false
 linguagens.indexOf('python'); // 4
 linguagens.indexOf('js'); // 2
 linguagens.lastIndexOf('js'); // 5
+
+
+//[].join()
+//[].joiin(separador) junta todos os valores da array e retorna uma string com eles. Se passar o valor como um parâmetro, este será utilizado durante a junção de cada item da array.
+
