@@ -56,3 +56,6 @@ console.log(carros);
 carros.splice(3, 2, 'Ferrari'); // ['Fiat', 'VW']
 carros; // ['Ford', 'Kia', 'Mustang', 'Ferrari', 'Honda']
 console.log(carros);
+
+//[].copyWithin()
+//[]/copyWithin(alvo, inicio, final)
