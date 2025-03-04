@@ -58,4 +58,4 @@ carros; // ['Ford', 'Kia', 'Mustang', 'Ferrari', 'Honda']
 console.log(carros);
 
 //[].copyWithin()
-//[]/copyWithin(alvo, inicio, final)
+//[]/copyWithin(alvo, inicio, final) a partir do alvo, ele irá copiar a array começando do inicio até o final e vai preencher a mesma com essa cópia. Caso omita os valores de início e final, ele irá utilizar como inicio o 0 e final o valor total da array.
