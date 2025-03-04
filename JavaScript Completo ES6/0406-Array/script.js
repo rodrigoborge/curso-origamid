@@ -115,7 +115,7 @@ htmlString = htmlString.join('h1');
 
 //[].slice()
 //[].slice(inicio, final) retorna os itens da array começando pelo inicio e indo até o valor de final
-const linguagens = ['html', 'css', 'js', 'php', 'python'];
+const linguagens2 = ['html', 'css', 'js', 'php', 'python'];
 linguagens.slice(3); // ['php', 'python']
 linguagens.slice(1, 4); // ['css', 'js', 'php']
 
