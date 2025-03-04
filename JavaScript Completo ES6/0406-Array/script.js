@@ -139,6 +139,7 @@ const estudantes = ['Marcio', 'Brenda', 'Joana', 'Kleber', 'Julia'];
 // Arrume os estudantes em ordem alfabética
 estudantes.sort();
 // Inverta a ordem dos estudantes
+estudantes.reverse();
 // Verifique se Joana faz parte dos estudantes
 // Verifique se Juliana faz parte dos estudantes
 
