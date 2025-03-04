@@ -125,7 +125,11 @@ const cloneLinguagens = linguagens.slice();
 
 const comidas = ['Pizza', 'Frango', 'Carne', 'Macarrão'];
 // Remova o primeiro valor de comidas e coloque em uma variável
+const primeiroValor = comidas.shift();
+console.log(primeiroValor);
 // Remova o último valor de comidas e coloque em uma variável
+const ultimoValor = comidas.pop();
+console.log(ultimoValor);
 // Adicione 'Arroz' ao final da array
 // Adicione 'Peixe' e 'Batata' ao início da array
 
@@ -134,12 +138,6 @@ const estudantes = ['Marcio', 'Brenda', 'Joana', 'Kleber', 'Julia'];
 // Inverta a ordem dos estudantes
 // Verifique se Joana faz parte dos estudantes
 // Verifique se Juliana faz parte dos estudantes
-
-const primeiroValor = comidas.shift();
-const ultimoValor = comidas.pop();
-
-console.log(primeiroValor);
-console.log(ultimoValor);
 
 let html = `<section>
             <div>Sobre</div>
