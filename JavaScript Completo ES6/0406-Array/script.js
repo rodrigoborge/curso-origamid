@@ -44,3 +44,5 @@ idades.sort();
 
 console.log(instrumentos);
 console.log(idades);
+
+//Splice
