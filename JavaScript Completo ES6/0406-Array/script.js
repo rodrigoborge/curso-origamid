@@ -76,3 +76,7 @@ console.log(['Item1', 'Item2', 'Item3', 'Item4', 'Item5'].copyWithin(-1));
 
 ['Item1', 'Item2', 'Item3', 'Item4'].fill('Banana', 1, 3);
 // ['Item1', 'Banana', 'Banana', 'Item4']
+
+//Métodos de Acesso [].concat()
+//Os métodos abaixo não modificam a array original, apenas retornam uma array modificada. [].concat() irá concatenar a array com o valor passado
+
