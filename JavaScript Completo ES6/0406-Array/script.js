@@ -131,7 +131,9 @@ console.log(primeiroValor);
 const ultimoValor = comidas.pop();
 console.log(ultimoValor);
 // Adicione 'Arroz' ao final da array
+comidas.push('Arroz');
 // Adicione 'Peixe' e 'Batata' ao início da array
+comidas.unshift('Peixe', 'Batata');
 
 const estudantes = ['Marcio', 'Brenda', 'Joana', 'Kleber', 'Julia'];
 // Arrume os estudantes em ordem alfabética
