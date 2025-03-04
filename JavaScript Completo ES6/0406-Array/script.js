@@ -143,6 +143,7 @@ estudantes.reverse();
 // Verifique se Joana faz parte dos estudantes
 console.log(estudantes.includes('Joana'));
 // Verifique se Juliana faz parte dos estudantes
+console.log(estudantes.includes('Juliana'));
 
 let html = `<section>
             <div>Sobre</div>
