@@ -160,3 +160,7 @@ html = html.join('li');
 const carros = ['Ford', 'Fiat', 'VW', 'Honda'];
 // Remova o último carro, mas antes de remover
 // salve a array original em outra variável
+
+carros.pop();
+
+console.log(carros);
