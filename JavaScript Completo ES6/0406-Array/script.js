@@ -87,3 +87,6 @@ const transportes = transporte1.concat(transporte2);
 
 const maisTransportes = [].concat(transporte1, transporte2, 'Van');
 // ['Barco', 'Aviao', 'Carro', 'Moto', 'Van'];
+
+//[].includes(), [].indexOf() e [].lastIndexOf()
+//[].includes(valor) verifica se a array possui o valor e retorna true ou false. [].indexOf(valor) verifica se a array possui o valor e retorna o index do primeiro valor na array. Já o [].lastIndexOf(valor) retorna o index do último.
