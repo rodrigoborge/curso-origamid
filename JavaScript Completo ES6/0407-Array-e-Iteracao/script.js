@@ -20,3 +20,8 @@ li.forEach(function (item) {
 //[].map(callback(itemAtual, index, array)) funciona da mesma forma que o forEach(), porém ao invés de retornar undefined, retorna uma nova array com valores atualizados de acordo com o return de cada iteração
 
 const carros2 = ['Ford', 'Fiat', 'Honda'];
+const novaArray = carros2.map((item, index, array) => {
+    console.log(item.toLocaleUpperCase(), index, array);
+});
+
+console.log(novaArray);
