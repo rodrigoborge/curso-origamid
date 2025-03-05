@@ -21,8 +21,7 @@ li.forEach(function (item) {
 
 const carros2 = ['Ford', 'Fiat', 'Honda'];
 const novaArray = carros2.map((item, index, array) => {
-    console.log(item.toLocaleUpperCase(), index, array);
-    return item;
+    return item.toUpperCase();
 });
 
 console.log(novaArray);
