@@ -26,3 +26,7 @@ const novaArray = carros2.map((item, index, array) => {
 
 console.log(novaArray);
 console.log(carros2);
+
+//Valor retornado
+// Se não retornamos nenhum valor durante a iteração utilizando map, o valor retornado como de qualquer função que não possui o return, será undefined.
+
