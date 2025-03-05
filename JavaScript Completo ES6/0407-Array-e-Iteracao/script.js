@@ -39,3 +39,7 @@ console.log(numerosX3); //[6, 12, 18, 24, 30, 36, 42]
 
 //[].map() vs [].forEach()
 //Se o objetivo for modificar os valores da array atual, sempre utilize o map, pois assim uma nova array com os valores modificados é retornada e você pode imediatamente iterar novamente sobre estes valores
+
+//[].map() com Objetos
+//Map pode ser muito útil para interagirmos com uma array de objetos, onde desejamos isolar um valor único de cada objeto.
+
