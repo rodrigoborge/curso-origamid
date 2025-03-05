@@ -70,5 +70,4 @@ function nomeAulas(aula) {
 const arrayNomeAulas = aulas.map(nomeAulas);
 
 console.log(arrayNomeAulas);
-
 console.log(tempoAulas);
