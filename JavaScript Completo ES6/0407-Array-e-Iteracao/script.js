@@ -25,3 +25,4 @@ const novaArray = carros2.map((item, index, array) => {
 });
 
 console.log(novaArray);
+console.log(carros2);
