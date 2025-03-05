@@ -30,3 +30,8 @@ console.log(carros2);
 //Valor retornado
 // Se não retornamos nenhum valor durante a iteração utilizando map, o valor retornado como de qualquer função que não possui o return, será undefined.
 
+//Arrow Function e [].map()
+//Uma Arrow function de linha unica e sem chaves irá retornar o valor após a fat arrow =>
+const numeros = [2, 4, 6, 8, 10, 12, 14];
+const numerosX3 = numeros.map((numeros) => numeros * 3);
+console.log(numerosX3); //[6, 12, 18, 24, 30, 36, 42]
