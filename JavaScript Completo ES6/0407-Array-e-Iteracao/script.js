@@ -60,3 +60,6 @@ const aulas = [
         min: 25,
     },
 ];
+
+const tempoAulas = aulas.map((aula) => aula.min);
+console.log(tempoAulas);
