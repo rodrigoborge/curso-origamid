@@ -62,4 +62,13 @@ const aulas = [
 ];
 
 const tempoAulas = aulas.map((aula) => aula.min);
+
+function nomeAulas(aula) {
+    return aula.nome;
+}
+
+const arrayNomeAulas = aulas.map(nomeAulas);
+
+console.log(arrayNomeAulas);
+
 console.log(tempoAulas);
