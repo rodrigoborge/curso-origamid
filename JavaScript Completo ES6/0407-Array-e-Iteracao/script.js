@@ -10,7 +10,7 @@ carros.forEach((item, index, array) => {
 
 const li = document.querySelectorAll('li');
 
-li.forEach((i) => i.classList.add('ativa'));
+li.forEach((item) => item.classList.add('ativa'));
 
 li.forEach(function (item) {
     item.classList.add('ativa');
