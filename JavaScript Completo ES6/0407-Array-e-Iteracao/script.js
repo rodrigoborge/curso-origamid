@@ -15,3 +15,7 @@ li.forEach((item) => item.classList.add('ativa'));
 li.forEach(function (item) {
     item.classList.add('ativa');
 });
+
+//[].map()
+//[].map(callback(itemAtual, index, array)) funciona da mesma forma que o forEach(), porém ao invés de retornar undefined, retorna uma nova array com valores atualizados de acordo com o return de cada iteração
+
