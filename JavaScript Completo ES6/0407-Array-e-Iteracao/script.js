@@ -173,3 +173,16 @@ const frutasLeft = frutas.reduce((acc, fruta) => acc + ' ' + fruta);
 
 frutasRight; // Uva Pêra Banana
 frutasLeft; // Banana Pêra Uva
+
+//[].some()
+//[].some(), se pelo menos um return da iteração for verdadeiro ele retorna true
+const frutas2 = ['Banana', 'Pêra', 'Uva'];
+const temUva = frutas.some((fruta) => {
+    return fruta === 'Uva';
+}); // true
+
+function maiorQue100(numero) {
+    return numero > 100;
+}
+const numeros3 = [0, 43, 22, 88, 101, 2];
+const temMaior = numeros.some(maiorQue100); // true
