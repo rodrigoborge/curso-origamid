@@ -76,9 +76,11 @@ console.log(tempoAulas);
 //[].reduce(callback(acumulador, valorAtual, index, array) valorInicial) executa a função de callback para cada item da Array. Um valor especial existe nessa função de callback, ele é chamado de acumulador, mas é na verdade apenas o retorno da iteração anterior.
 
 const aulas2 = [10, 25, 30];
-const reduceAulas = aulas.reduce((acumulador, item, index, array) => {
-    return acumulador + atual;
-});
-console.log(reduceAulas);
+const reduceAulas = aulas.reduce((acumulador, item) => {
+    console.log(acumulador, item);
+    return acumulador + item;
+}, 0);
+console.log(`valor ${reduceAulas}`);
 
-
+//Reduce Passo a Passo 1
+//O primeiro parâmetro do callback é o valor do segundo argumento passado no reduce(callback, inicial) durante a primeira iteração. Nas iterações seguintes este valor passa a ser o retornado pela anterior.
