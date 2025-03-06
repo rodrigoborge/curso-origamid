@@ -101,3 +101,12 @@ console.log(`valor ${reduceAulas}`);
 // aulas3.reduce((35, 30) => {
 //   return 35 + 30;
 // }, 0); // retorna 65
+
+const numeros2 = [10, 25, 30, 3, 54, 33, 22];
+const maiorNumero = numeros2.reduce((anterior, atual) => {
+    if (anterior > atual) {
+        return anterior;
+    } else {
+        return atual;
+    }
+});
