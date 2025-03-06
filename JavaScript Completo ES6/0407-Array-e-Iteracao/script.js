@@ -209,3 +209,7 @@ const buscaUva = frutas.findIndex((fruta) => {
 
 const numeros5 = [6, 43, 22, 88, 101, 29];
 const buscaMaior45 = numeros.find((x) => x > 45); // 88
+
+//[].filter()
+//[].filter() retorna uma array com a lista de valores que durante a sua iteraçao retornaram um valor verdadeiro
+
