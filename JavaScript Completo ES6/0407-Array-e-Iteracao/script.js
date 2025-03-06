@@ -213,3 +213,10 @@ const buscaMaior45 = numeros.find((x) => x > 45); // 88
 //[].filter()
 //[].filter() retorna uma array com a lista de valores que durante a sua iteraçao retornaram um valor verdadeiro
 
+const frutas5 = ['Banana', undefined, null, '', 'Uva', 0, 'Maçã'];
+const arrayLimpa = frutas.filter((fruta) => {
+    return fruta;
+}); // ['Banana', 'Uva', 'Maçã']
+
+const numeros6 = [6, 43, 22, 88, 101, 29];
+const buscaMaior45_2 = numeros.filter((x) => x > 45); // [88, 101]
