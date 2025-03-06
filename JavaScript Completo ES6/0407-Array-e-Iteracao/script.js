@@ -270,6 +270,8 @@ const objetoCursos = arrayCursos.map((curso) => {
 // Retorne uma lista com os
 // números maiores que 100
 const numeros7 = [3, 44, 333, 23, 122, 322, 33];
+const maior100 = numeros.filter((n) => n > 100);
+console.log(maior100);
 
 // Verifique se Baixo faz parte
 // da lista de instrumentos e retorne true
