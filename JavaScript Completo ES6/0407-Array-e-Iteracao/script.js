@@ -186,3 +186,15 @@ function maiorQue100(numero) {
 }
 const numeros3 = [0, 43, 22, 88, 101, 2];
 const temMaior = numeros.some(maiorQue100); // true
+
+//[].every()
+//[].every() se todos os returns das iteraçoes forem verdadeiros o método irá retornar true. Se pelo menos um for falso ele irá retornar falso
+const frutas = ['Banana', 'Pêra', 'Uva', ''];
+// False pois pelo menos uma fruta
+// está vazia '', o que é um valor falsy
+const arraysCheias = frutas.every((fruta) => {
+  return fruta; // false
+});
+
+const numeros = [6, 43, 22, 88, 101, 29];
+const maiorQue3 = numeros.every(x => x > 3); // true
