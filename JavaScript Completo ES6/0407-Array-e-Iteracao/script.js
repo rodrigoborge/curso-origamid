@@ -220,3 +220,29 @@ const arrayLimpa = frutas.filter((fruta) => {
 
 const numeros6 = [6, 43, 22, 88, 101, 29];
 const buscaMaior45_2 = numeros.filter((x) => x > 45); // [88, 101]
+
+//FILTER EM OBJETOS
+
+const aulas7 = [
+    {
+        nome: 'HTML 1',
+        min: 15,
+    },
+    {
+        nome: 'HTML 2',
+        min: 10,
+    },
+    {
+        nome: 'CSS 1',
+        min: 20,
+    },
+    {
+        nome: 'JS 1',
+        min: 25,
+    },
+];
+
+const aulasMaiores = aulas.filter((aula) => {
+    return aula.min > 15;
+});
+// [{nome: 'CSS 1', min: 20}, {nome: 'JS 1', min: 25}]
