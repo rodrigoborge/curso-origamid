@@ -246,3 +246,7 @@ const aulasMaiores = aulas.filter((aula) => {
     return aula.min > 15;
 });
 // [{nome: 'CSS 1', min: 20}, {nome: 'JS 1', min: 25}]
+
+
+// EXERCICIOS
+
