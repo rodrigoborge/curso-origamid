@@ -76,9 +76,9 @@ console.log(tempoAulas);
 //[].reduce(callback(acumulador, valorAtual, index, array) valorInicial) executa a função de callback para cada item da Array. Um valor especial existe nessa função de callback, ele é chamado de acumulador, mas é na verdade apenas o retorno da iteração anterior.
 
 const aulas2 = [10, 25, 30];
-const total1 = aulas.reduce((acumulador, atual) => {
+const reduceAulas = aulas.reduce((acumulador, item, index, array) => {
     return acumulador + atual;
 });
-console.log(total1);
+console.log(reduceAulas);
 
 
