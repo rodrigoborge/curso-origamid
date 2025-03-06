@@ -109,4 +109,6 @@ const maiorNumero = numeros2.reduce((anterior, atual) => {
     } else {
         return atual;
     }
-});
+}, 0);
+
+console.log(maiorNumero);
