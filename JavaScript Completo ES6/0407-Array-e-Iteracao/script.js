@@ -84,3 +84,20 @@ console.log(`valor ${reduceAulas}`);
 
 //Reduce Passo a Passo 1
 //O primeiro parâmetro do callback é o valor do segundo argumento passado no reduce(callback, inicial) durante a primeira iteração. Nas iterações seguintes este valor passa a ser o retornado pela anterior.
+
+// const aulas3 = [10, 25, 30];
+
+// // 1
+// aulas3.reduce((0, 10) => {
+//   return 0 + 10;
+// }, 0); // retorna 10
+
+// // 2
+// aulas3.reduce((10, 25) => {
+//   return 10 + 25;
+// }, 0); // retorna 35
+
+// // 3
+// aulas3.reduce((35, 30) => {
+//   return 35 + 30;
+// }, 0); // retorna 65
