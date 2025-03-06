@@ -112,3 +112,27 @@ const maiorNumero = numeros2.reduce((anterior, atual) => {
 }, 0);
 
 console.log(maiorNumero);
+
+const aulas3 = [
+    {
+        nome: 'HTML 1',
+        min: 15,
+    },
+    {
+        nome: 'HTML 2',
+        min: 10,
+    },
+    {
+        nome: 'CSS 1',
+        min: 20,
+    },
+    {
+        nome: 'JS 1',
+        min: 25,
+    },
+];
+
+const listaAulas = aulas.reduce((acumulador, atual, index) => {
+    acumulador[index] = atual.nome;
+    return acumulador;
+}, {});
