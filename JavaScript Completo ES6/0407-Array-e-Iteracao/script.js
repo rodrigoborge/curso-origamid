@@ -193,8 +193,19 @@ const frutas3 = ['Banana', 'Pêra', 'Uva', ''];
 // False pois pelo menos uma fruta
 // está vazia '', o que é um valor falsy
 const arraysCheias = frutas.every((fruta) => {
-  return fruta; // false
+    return fruta; // false
 });
 
 const numeros4 = [6, 43, 22, 88, 101, 29];
-const maiorQue3 = numeros.every(x => x > 3); // true
+const maiorQue3 = numeros.every((x) => x > 3); // true
+
+//[].find() e [].findIndex()
+//[].find() retorna o valor atual da primeira iteraçao que retornar um valor verdadeiro. Já o [].findIndex() ao inves de retornar o valor, retorna o index deste valor na array
+
+const frutas4 = ['Banana', 'Pêra', 'Uva', 'Maçã'];
+const buscaUva = frutas.findIndex((fruta) => {
+    return fruta === 'Uva';
+}); // 2
+
+const numeros5 = [6, 43, 22, 88, 101, 29];
+const buscaMaior45 = numeros.find((x) => x > 45); // 88
