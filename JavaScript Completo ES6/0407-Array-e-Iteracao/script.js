@@ -162,3 +162,7 @@ const listaAulas = aulas.reduce((acumulador, atual, index) => {
 //   {0: 'HTML 1', 1: 'HTML 2', 2: 'CSS 1'}[3] = 'JS 1';
 //   return {0: 'HTML 1', 1: 'HTML 2', 2: 'CSS 1', 3: 'JS 1'};
 // }, {})
+
+//[].reduceRight()
+//Existe o metodo [].reduceRight(), a diferença é que este começa a iterar da direita para a esquerda, enquanto o reduce itera da esquerda para a direita
+
